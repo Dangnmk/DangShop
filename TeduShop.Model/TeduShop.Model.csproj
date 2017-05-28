@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -69,10 +70,6 @@
     <ProjectReference Include="..\TeduShop.Common\TeduShop.Common.csproj">
       <Project>{21787e55-aabe-46d4-8126-118fea14a348}</Project>
       <Name>TeduShop.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TeduShop.Data\TeduShop.Data.csproj">
-      <Project>{22334253-6942-4f4f-ba61-6e83a9aea3dd}</Project>
-      <Name>TeduShop.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
